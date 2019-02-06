@@ -26,7 +26,7 @@ def main():
     left_speed_label = ttk.Label(main_frame, text="Left")
     left_speed_label.grid()
     left_speed_entry = ttk.Entry(main_frame, width=8)
-    left_speed_entry.insert(0, "600")
+    left_speed_entry.insert(0,"600")
     left_speed_entry.grid()
 
     right_speed_label = ttk.Label(main_frame, text="Right")
